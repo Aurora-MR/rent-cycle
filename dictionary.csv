@@ -1,0 +1,21 @@
+instant,Identificador del registro.
+dteday,Fecha del registro.
+season,"Temporada (1: primavera, 2: verano, 3: otoño, 4: invierno)."
+yr,"Año del registro (0: 2011, 1:2012)."
+mnth,Mes del registro (1 a 12).
+hr,Hora del registro (0 a 23).
+holiday,"Si el día meteorológico es feriado toma el valor 1, sino toma el valor 0."
+weekday,Día de la semana.
+workingday,"Si el día es laboral toma el valor 1, sino 0. Un día laboral es un día no feriado ni fin de semana."
+weathersit,"Indica el tipo de clima que hubo el momento del registro. 
+1 : Despejado, algunas nubes o parcialmente nublado. 
+2 : Neblina con nubes, neblina con nubes fragmentadas, neblina con algunas nubes o sólo neblina. 
+3 : Nieve ligera, llovizna con tormenta eléctrica y nubes dispersas o llovizna con nubes dispersas. 
+4 : Lluvia fuerte con granizos, tormenta eléctrica y neblina, o nieve con niebla."
+temp,Temperatura normalizada en grados Celsius. Máximo 41ºC.
+atemp,Sensación térmica normalizada en grados Celsius. Máximo de 50ºC.
+hum,Nivel de humedad normalizada. Máximo de 100.
+windspeed,Velocidad del viento normalizada. Máximo 67 km/h.
+casual,"Cantidad de usuarios casuales en el registro, siendo aquellos que no están registrados."
+registered,Cantidad de usuarios registrados en el registro.
+cnt,"Cantidad total de bicicletas rentadas en el registro, incluyendo ambos tipos de usuarios (casuales y registrados)."
